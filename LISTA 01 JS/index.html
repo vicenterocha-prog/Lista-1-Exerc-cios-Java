@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>EXERCÍCIOS JAVA LISTA 01</title>
+</head>
+<body>
+   <!-- Exercício 1 -->
+    <script>
+       alert ('Boas vindas ao nosso site!');
+    </script>
+
+     <!-- Exercício 2 -->
+     <script>
+        let nome = 'Sol';
+    </script>
+
+     <!-- Exercício 3 -->
+      <script>
+        let idade = 25;
+      </script>
+
+      <!-- Exercício 4 -->
+       <script>
+        let numeroDeVendas = 89;
+       </script>
+
+       <!-- Exercício 5 -->
+        <script>
+            let saldoDisponível = 2500;
+        </script>
+
+        <!-- Exercício 6 -->
+         <script>
+            alert('Erro! Preencha todos os campos');
+         </script>
+
+          <!-- Exercício 7 -->
+           <script>
+            let mensagemDeErro = 'Erro! Preencha todos os campos';
+            alert(mensagemDeErro);
+           </script>
+
+           <!--Exercício 8-->
+           <script>
+            let nome = prompt('Qual é o seu nome');
+           </script>
+
+           <!--Exercício 9-->
+           <script>
+            let idade = prompt('Digite a sua idade');
+           </script>
+
+           <!--Exercício 10-->
+           <script>
+            let idade = prompt('Digite a sua idade');
+            idade = parseInt(idade);
+            if (idade >=18) {
+                alert('Pode tirar habilitação');
+            } else if (idade >=16){
+                alert('Pode trabalhar!');
+            }
+           </script>
+
+           <!--Exercício 11-->
+           <script>
+            let diaDaSemana = prompt('Qual é o dia da semana?');
+            diaDaSemana = diaDaSemana.toLowerCase();
+
+            if (diaDaSemana === 'sábado'|| diaDaSemana === 'domingo'){
+            alert('Bom fim de  semana!');                      
+            } else {
+            alert('Boa semana!'); 
+        }
+           </script>
+
+           <!--Exercício 12-->
+           <script>
+            let numero = prompt('Digite um número');
+            numero = parseFloat(numero);
+            if (numero>0) {
+                alert('O número é positivo');
+         }  else if (numero<0){
+            alert('O número é negativo');
+         }  else {
+            alert ('O número é zero');
+         }
+           </script>
+
+           <!--Exercício 13-->
+           <script>
+            let pontuacao = prompt('Digite sua pontuação');
+            pontuacao = parseInt(pontuacao);
+            if (pontuacao >= 100){
+               alert('Parabéns, você venceu!'); 
+            } else {
+               alert('Tente novamente para ganhar.');
+            }
+           </script>
+
+           <!--Exercício 14-->
+           <script>
+            let saldo = 2500;
+            alert('Seu saldo é de R$ ${saldo}.');
+           </script>
+
+           <!--Exercício 15-->
+           <script>
+            let nome = prompt('Digite seu nome');
+            alert('Bem vindo(a), ${nome}!');
+           </script>
+
+           <!--Exercício 16-->
+           <script>
+            let contador = 1;
+            while (contador <=10) {
+               alert (contador);
+               contador++;
+            }
+           </script>
+
+           <!--Exercício 17-->
+           <script>
+            let contador = 10;
+            while (contador >=0) {
+               alert(contador);
+               contador--; 
+            }
+           </script>
+
+           <!--Exercício 18-->
+           <script>
+            let numero = prompt('Digite um número para a contagem regressiva')
+            numero = parseInt(numero);
+            while (numero >=0) {
+               console.log(numero);
+               numero--;
+            }
+           </script>
+
+           <!--Exercício 19-->
+           <script>
+            let numero = prompt('Digite um número para contagem progressiva')
+            numero = parseInt(numero);
+            let contador = 0;
+            while (contador <= numero) {
+               console.log(contador);
+               contador++;
+            }
+           </script>
+
+           <!--Exercício 20-->
+           <script>
+            console.log('Bem vindo(a)!');
+           </script>
+
+           <!--Exercício 21-->
+           <script>
+            let nome = 'SeuNome';
+            console.log('Olá, ${nome}!');
+           </script>
+
+           <!--Exercício 22-->
+           <script>
+            let nome = 'SeuNome';
+            alert('Olá, ${nome}!'); 
+           </script>
+
+           <!--Exercício 23-->
+           <script>
+            let linguagemPreferida = prompt('Qual a linguagem de programação que você mais gosta?')
+            console.log('Você gosta de ${linguagemPreferida}.');
+           </script>
+
+           <!--Exercício 24-->
+           <script>
+            let valor1 = 13;
+            let valor2 = 23;
+            let resultado = valor1 + valor2;
+            console.log('A soma de ${valor1} e ${valor2} é igual a ${resultado}.');
+           </script>
+
+           <!--Exercício 25-->
+           <script>
+            let valor1 = 17;
+            let valor2 = 7;
+            let resultado = valor1 - valor2;
+            console.log('A diferença entre ${valor1} e ${valor2} é igual a ${resultado}');
+           </script>
+
+           <!--Exercício 26-->
+           <script>
+            let idade = prompt('Digite sua idade');
+            idade = parseInt(idade);
+            if (idade >=18) {
+               console.log('Você é maior de idade');
+            } else {
+               console.log('Você é menor de idade');
+            }
+
+            let numero = prompt('Digite um némero');
+            numero = parseFloat(numero);
+            if (numero > 0) {
+               console.log('O número é positivo');
+            } else if (numero < 0) {
+               console.log('O número é negativo');
+            } else {
+               console.log('O número é zero');
+            }
+           </script>
+
+           <!--Exercício 27-->
+           <script>
+            let contador = 1;
+            while (contador <=10) {
+               console.log(contador);
+               contador++;
+            }
+           </script>
+
+           <!--Exercício 28-->
+           <script>
+            let nota = 9;
+            if (nota >= 7) {
+               console.log('aprovado');
+            } else {
+               console.log('Reprovado');
+            }
+           </script>
+
+           <!--Exercício 29-->
+           <script>
+            let numeroAleatorio = Math.random();
+            console.log(numeroAleatorio);
+           </script>
+
+           <!--Exercício 30-->
+           <script>
+            let numeroAleatorio = Math.floor(Math.random() * 10) + 1;
+            console.log(numeroAleatorio);
+           </script>
+
+           <!--Exercício 31-->
+           <script>
+            let numeroAleatorio = Math.floor(Math.random() * 1000) + 1;
+            console.log(numeroAleatorio);
+           </script>
+
+ </body>
+</html>
